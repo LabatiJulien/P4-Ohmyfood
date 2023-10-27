@@ -536,26 +536,6 @@ footer .fa-solid {
   max-width: 80%;
 }
 
-@keyframes reverse__check-mark-button__rotate {
-  from {
-    opacity: 1;
-    transform: rotate(0deg);
-  }
-  to {
-    opacity: 0;
-    transform: rotate(360deg);
-  }
-}
-@keyframes check-mark-button__rotate {
-  from {
-    opacity: 0;
-    transform: rotate(360deg);
-  }
-  to {
-    opacity: 1;
-    transform: rotate(0deg);
-  }
-}
 @keyframes check-mark-button__appear {
   from {
     opacity: 0;

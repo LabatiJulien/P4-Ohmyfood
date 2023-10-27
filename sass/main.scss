@@ -116,7 +116,6 @@ p {
 	i {
 		position: absolute;
 		font-size: 1.5em;
-		right: 25px;
 	}
 }
 .Heart-Full {
@@ -509,27 +508,6 @@ footer {
 	text-overflow: ellipsis;
 	max-width: 80%;
 }
-@keyframes reverse__check-mark-button__rotate {
-    from {
-        opacity: 1;
-        transform: rotate(0deg);
-    }
-    to {
-        opacity: 0;
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes check-mark-button__rotate {
-    from {
-        opacity: 0;
-        transform: rotate(360deg);
-    }
-    to {
-        opacity: 1;
-        transform: rotate(0deg);
-    }
-}
 
 
 @keyframes check-mark-button__appear {
@@ -661,9 +639,7 @@ footer {
         width: 100%;
     }
     /** Coeurs **/ 
-.Heart{
-	left: 25px;
-}
+
 	.Heart-Full:hover{
 		opacity: 1;
 		color: $Transparent;
