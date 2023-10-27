@@ -115,12 +115,15 @@ p {
 .Heart {
 	i {
 		position: absolute;
+		font-size: 1.5em;
+		right: 25px;
 	}
 }
 .Heart-Full {
 	opacity: 0;
 	transition-property: all;
 	transition-duration: 500ms;
+	transition-timing-function: ease-in-out;
 	&:active {
 		opacity: 1;
 		color: $Transparent;
@@ -355,7 +358,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
+	position: relative;
 	h3 {
 		font-size: 18px;
 	}
@@ -448,7 +451,6 @@ footer {
 }
 .menu__title {
 	display: flex;
-	align-items: center;
 	padding-top: 32px;
 	gap: 24px;
 }
@@ -659,7 +661,9 @@ footer {
         width: 100%;
     }
     /** Coeurs **/ 
-
+.Heart{
+	left: 25px;
+}
 	.Heart-Full:hover{
 		opacity: 1;
 		color: $Transparent;

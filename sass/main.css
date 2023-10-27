@@ -122,12 +122,14 @@ p {
 /**Coeurs**/
 .Heart i {
   position: absolute;
+  font-size: 1.5em;
 }
 
 .Heart-Full {
   opacity: 0;
   transition-property: all;
   transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
 }
 .Heart-Full:active {
   opacity: 1;
@@ -372,7 +374,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  position: relative;
 }
 .restaurants__card__content h3 {
   font-size: 18px;
@@ -472,7 +474,6 @@ footer .fa-solid {
 
 .menu__title {
   display: flex;
-  align-items: center;
   padding-top: 32px;
   gap: 24px;
 }
