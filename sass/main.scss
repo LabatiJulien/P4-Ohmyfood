@@ -116,14 +116,17 @@ p {
 	i {
 		position: absolute;
 		font-size: 1.5em;
+		right: 25px;
+		top: 25px;
 	}
 }
-.Heart-Full {
+.Heart-Full  {
 	opacity: 0;
 	transition-property: all;
 	transition-duration: 500ms;
 	transition-timing-function: ease-in-out;
-	&:active {
+
+	&:hover {
 		opacity: 1;
 		color: $Transparent;
 		background-image: linear-gradient($Purple,$PaleMagenta);
@@ -131,20 +134,7 @@ p {
 		-webkit-background-clip: text;
 	}
 }
-@keyframes fill-heart {
-    0% {
-        fill-opacity: 0;
-        stroke-opacity: 1;
-    }
-    50% {
-        fill-opacity: 0.5;
-        stroke-opacity: 0;
-    }
-    100% {
-        stroke: none;
-        fill-opacity: 1;
-    }
-}
+
 /***Page Accueil***/
 /**Loader Ball**/
 
@@ -352,7 +342,7 @@ p {
 	}
 }
 .restaurants__card__content {
-	height: 33%;
+	
 	padding: 16px 25px 12px 13px;
 	display: flex;
 	flex-direction: row;
