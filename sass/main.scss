@@ -113,28 +113,28 @@ p {
 }
 /**Coeurs**/
 .Heart {
-	i {
-		position: absolute;
-		font-size: 1.5em;
-		right: 25px;
-		top: 25px;
-	}
-}
-.Heart-Full  {
-	opacity: 0;
-	transition-property: all;
-	transition-duration: 500ms;
-	transition-timing-function: ease-in-out;
+    i {
+        position: absolute;
+        font-size: 1.5em;
+        right: 25px;
+        top: 25px;
+    }
 
-	&:hover {
-		opacity: 1;
-		color: $Transparent;
-		background-image: linear-gradient($Purple,$PaleMagenta);
-		background-clip: text;
-		-webkit-background-clip: text;
-	}
-}
+    .Heart-Full {
+        opacity: 0;
+        transition-property: all;
+        transition-duration: 500ms;
+        transition-timing-function: ease-in-out;
+    }
 
+    .Heart-Full:hover {
+        opacity: 1;
+        color: $Transparent;
+        background-image: linear-gradient($Purple, $PaleMagenta);
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+}
 /***Page Accueil***/
 /**Loader Ball**/
 
@@ -624,15 +624,7 @@ footer {
     .card img {
         width: 100%;
     }
-    /** Coeurs **/ 
-
-	.Heart-Full:hover{
-		opacity: 1;
-		color: $Transparent;
-		background-image: linear-gradient($Purple,$PaleMagenta);
-		background-clip: text;
-		-webkit-background-clip: text;
-	}
+    
 
     /** Footer **/
 
